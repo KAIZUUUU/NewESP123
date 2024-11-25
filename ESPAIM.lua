@@ -2,7 +2,8 @@
 File: ESP_and_AimBot.lua 
 Place this script in a LocalScript for testing in Roblox Studio 
 ]]
-
+while do true
+    wait(5)
 -- Services
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
@@ -166,3 +167,5 @@ aimBotButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 aimBotButton.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 
 aimBotButton.MouseButton1Click:Connect(toggleAimBot)
+    print("Script Works u fucking skid")
+end
